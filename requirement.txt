@@ -1,0 +1,6 @@
+1. react
+2. react-router-dom
+3. axios / fetch
+4. material ui
+5. material ui icons
+6. react query -> API calls -> data, isloading, error

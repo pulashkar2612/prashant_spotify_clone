@@ -1,0 +1,47 @@
+.sidebar {
+    flex: 0 0 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 235px;
+    height: 100vh;
+    position: fixed;
+    color: white;
+    background-color: #040404;
+    top: 0px;
+    left: 0px;
+    transition: 'transform 0.3s';
+    z-index: 1000;
+    margin-top: 80px;
+  }
+  
+  .sidebar__title {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  .sidebar__logo {
+    margin-right: auto;
+    object-fit: contain;
+    height: 70px;
+    padding: 10px;
+  }
+
+  .liked-songs-container {
+    max-height: 150px; /* Adjust the max height as needed */
+    overflow-y: auto;
+    max-width: 260px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    
+    /* Add any other styling you want for the container */
+  }
+
+  @media screen and (max-width: 600px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+  }
+  

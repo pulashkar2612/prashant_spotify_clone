@@ -1,0 +1,22 @@
+.Search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: white;
+    width: 100%;
+  }
+  .Search-result{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    height: 400px;
+  }
+
+  .Search-fallback{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    height: 400px;
+  }
